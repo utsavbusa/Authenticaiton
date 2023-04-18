@@ -17,6 +17,7 @@
 		F84DF3E529EC2CEF002B26E1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DF3E429EC2CEF002B26E1 /* RootView.swift */; };
 		F84DF3E729EC4344002B26E1 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DF3E629EC4343002B26E1 /* SettingView.swift */; };
 		F84DF3EA29EC5D1E002B26E1 /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DF3E929EC5D1E002B26E1 /* Utilites.swift */; };
+		F84DF3EC29ED3134002B26E1 /* SignInAppleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DF3EB29ED3134002B26E1 /* SignInAppleHelper.swift */; };
 		F87ECA7029E73EC300EB5D3B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F87ECA6F29E73EC300EB5D3B /* FirebaseAuth */; };
 		F87ECA7329E73F1200EB5D3B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F87ECA7229E73F1200EB5D3B /* GoogleSignIn */; };
 		F87ECA7529E73F1200EB5D3B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F87ECA7429E73F1200EB5D3B /* GoogleSignInSwift */; };
@@ -38,6 +39,7 @@
 		F84DF3E429EC2CEF002B26E1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		F84DF3E629EC4343002B26E1 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		F84DF3E929EC5D1E002B26E1 /* Utilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
+		F84DF3EB29ED3134002B26E1 /* SignInAppleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAppleHelper.swift; sourceTree = "<group>"; };
 		F87ECA7629E73F6400EB5D3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F87ECA7829E7405C00EB5D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F87ECA7929E740CF00EB5D3B /* Authentication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Authentication.entitlements; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				F87ECA7829E7405C00EB5D3B /* Info.plist */,
 				F84DF3E429EC2CEF002B26E1 /* RootView.swift */,
 				F84DF3E229EC2941002B26E1 /* AunticationManger.swift */,
+				F84DF3EB29ED3134002B26E1 /* SignInAppleHelper.swift */,
 				F84DF3DE29EC2648002B26E1 /* MianScreenBeforeSign.swift */,
 				F84DF3E029EC27C3002B26E1 /* SignInWithEmail.swift */,
 				F84DF3E629EC4343002B26E1 /* SettingView.swift */,
@@ -201,6 +204,7 @@
 				F84207CC29E72B4800BE721C /* ContentView.swift in Sources */,
 				F84DF3EA29EC5D1E002B26E1 /* Utilites.swift in Sources */,
 				F84DF3E329EC2941002B26E1 /* AunticationManger.swift in Sources */,
+				F84DF3EC29ED3134002B26E1 /* SignInAppleHelper.swift in Sources */,
 				F87ECA7F29E7432D00EB5D3B /* LoginView.swift in Sources */,
 				F84DF3E529EC2CEF002B26E1 /* RootView.swift in Sources */,
 				F84DF3DF29EC2648002B26E1 /* MianScreenBeforeSign.swift in Sources */,

@@ -8,6 +8,7 @@
 import Foundation
 import Firebase
 import FirebaseAuth
+import AuthenticationServices
 
 struct AuthDataResultModel{
     let uuid:String
@@ -24,6 +25,7 @@ struct AuthDataResultModel{
 enum AuthProviderOption:String{
     case email = "password"
     case google = "goole.com"
+    case apple = "apple.com"
 }
 
 final class AuthenticationManger{
@@ -109,6 +111,11 @@ extension AuthenticationManger{
         let credential = GoogleAuthProvider.credential(withIDToken: token.idToken, accessToken: token.accessToken)
             
         return try await signIn(credential: credential)
+    }
+    
+    func signInWithApple(tokens: SignInWithAppleResult) async throws -> AuthDataResultModel {
+            let credential = OAuthProvider.credential(withProviderID: AuthProviderOption.apple.rawValue, idToken: tokens.token, rawNonce: tokens.nonce)
+            return try await signIn(credential: credential)
     }
     
         
